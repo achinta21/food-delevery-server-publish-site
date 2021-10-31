@@ -60,6 +60,10 @@ app.get('/',(req,res)=>{
     res.send('server connect')
 })
 
+app.get('/hello',(req,res)=>{
+    res.send('hello update heroku')
+})
+
 app.listen(port,()=>{
 console.log('best food server',port)
 })
